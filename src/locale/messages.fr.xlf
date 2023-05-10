@@ -50,9 +50,21 @@
             <source>© 2023 Our Company. All rights reserved.</source>
             <target>© 2023 Notre entreprise. Tous droits réservés.</target>
         </trans-unit>
-        <trans-unit id="languageSelection" datatype="html">
-            <source>Language: <x id="START_TAG_SELECT" ctype="x-select" equiv-text="<select>"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="<option value='en'>"/>English<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="</option>"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="<option value='fr'>"/>French<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="</option>"/><x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="<option value='es'>"/>Spanish<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="</option>"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="</select>"/></source>
-            <target>Langue : <x id="START_TAG_SELECT" ctype="x-select" equiv-text="<select>"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="<option value='en'>"/>Anglais<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="</option>"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="<option value='fr'>"/>Français<x id="CLOSE_TAG_OPTION_1" ctype="x-option_1" equiv-text="</option>"/><x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="<option value='es'>"/>Espagnol<x id="CLOSE_TAG_OPTION_2" ctype="x-option_2" equiv-text="</option>"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="</select>"/></target>
+        <trans-unit id="language" datatype="html">
+            <source>Language:</source>
+            <target>Langue :</target>
+        </trans-unit>
+        <trans-unit id="english" datatype="html">
+            <source>English</source>
+            <target>Anglais</target>
+        </trans-unit>
+        <trans-unit id="french" datatype="html">
+            <source>French</source>
+            <target>Français</target>
+        </trans-unit>
+        <trans-unit id="Spanish" datatype="html">
+            <source>Spanish</source>
+            <target>Espagnol</target>
         </trans-unit>
     </body>
     </file>

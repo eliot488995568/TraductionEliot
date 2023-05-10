@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" target-language="fr" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" target-language="es" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="welcome" datatype="html">
         <source>Welcome to our website!</source>
@@ -51,8 +51,8 @@
         <target>© 2023 Nuestra empresa. Todos los derechos reservados.</target>
       </trans-unit>
       <trans-unit id="languageSelection" datatype="html">
-          <source>Language: <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option value=&quot;en&quot;&gt;"/>English<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;option value=&quot;fr&quot;&gt;"/>French<x id="CLOSE_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="&lt;option value=&quot;es&quot;&gt;"/>Spanish<x id="CLOSE_TAG_OPTION_2" ctype="x-option_2" equiv-text="&lt;/option&gt;"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/></source>
-          <target>Idioma : <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option value=&quot;en&quot;&gt;"/>Inglés<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;option value=&quot;fr&quot;&gt;"/>Francés<x id="CLOSE_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="&lt;option value=&quot;es&quot;&gt;"/>Español<x id="CLOSE_TAG_OPTION_2" ctype="x-option_2" equiv-text="&lt;/option&gt;"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/></target>
+          <source>Language: <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select (ngModelChange)=&quot;switchLanguage($event.target)&quot;&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option value=&quot;en&quot;&gt;"/>English<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;option value=&quot;fr&quot;&gt;"/>French<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="&lt;option value=&quot;es&quot;&gt;"/>Spanish<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/></source>
+          <source>Idioma: <x id="START_TAG_SELECT" ctype="x-select" equiv-text="&lt;select (ngModelChange)=&quot;switchLanguage($event.target)&quot;&gt;"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="&lt;option value=&quot;en&quot;&gt;"/>Inglès<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="&lt;option value=&quot;fr&quot;&gt;"/>Francès<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="&lt;option value=&quot;es&quot;&gt;"/>Español<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="&lt;/option&gt;"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="&lt;/select&gt;"/></source>
       </trans-unit>
     </body>
   </file>

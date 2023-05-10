@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { Component, NgModule, LOCALE_ID } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,10 +6,15 @@ import { Component, NgModule } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  // constructor(@Inject(LOCALE_ID) private localeId: string) {}
+
   title = 'traductionEliot';
+  language: string = 'en';
+
   switchLanguage(language: any) {
-    console.log(language);
-    // localStorage.setItem('language', language);
-    // window.location.reload();
+    this.language = language.value;
+    console.log("test",this.language);
+    localStorage.setItem('language', language);
+    window.location.reload();
   }
 }
