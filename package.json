@@ -4,6 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "fr": "ng serve --configuration=fr",
+    "es": "ng serve --configuration=es",
     "build": "ng build",
     "buildall": "for lang en es fr;do ng build --configuration=$lang; done",
     "watch": "ng build --watch --configuration development",
