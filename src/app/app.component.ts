@@ -13,8 +13,15 @@ export class AppComponent {
 
   switchLanguage(language: any) {
     this.language = language.value;
-    console.log("test",this.language);
-    localStorage.setItem('language', language);
-    window.location.reload();
+    console.log(this.language);
+    if (this.language == 'en') {
+      // si language = en, on affiche le texte en anglais
+    } else if(this.language == 'fr') {
+      // si language = fr, on affiche le texte en français
+    } else if(this.language == 'es') {
+      // si language = es, on affiche le texte en espagnol
+    } else {
+      alert('error');
+    }
   }
 }
