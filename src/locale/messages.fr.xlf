@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en-US" target-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+        <trans-unit id="welcome" datatype="html">
+            <source>Welcome to our website!</source>
+            <target>Bienvenue sur notre site web !</target>
+        </trans-unit>
+        <trans-unit id="description" datatype="html">
+            <source>We offer a wide range of products and services to meet your needs.</source>
+            <target>Nous offrons une large gamme de produits et services pour répondre à vos besoins.</target>
+        </trans-unit>
+        <trans-unit id="aboutUs" datatype="html">
+            <source>About Us</source>
+            <target>À propos de nous</target>
+        </trans-unit>
+        <trans-unit id="products" datatype="html">
+            <source>Our Products</source>
+            <target>Nos produits</target>
+        </trans-unit>
+        <trans-unit id="product1" datatype="html">
+            <source>Product 1</source>
+            <target>Produit 1</target>
+        </trans-unit>
+        <trans-unit id="product2" datatype="html">
+            <source>Product 2</source>
+            <target>Produit 2</target>
+        </trans-unit>
+        <trans-unit id="product3" datatype="html">
+            <source>Product 3</source>
+            <target>Produit 3</target>
+        </trans-unit>
+        <trans-unit id="services" datatype="html">
+            <source>Our Services</source>
+            <target>Nos services</target>
+        </trans-unit>
+        <trans-unit id="service1" datatype="html">
+            <source>Service 1</source>
+            <target>Service 1</target>
+        </trans-unit>
+        <trans-unit id="service2" datatype="html">
+            <source>Service 2</source>
+            <target>Service 2</target>
+        </trans-unit>
+        <trans-unit id="service3" datatype="html">
+            <source>Service 3</source>
+            <target>Service 3</target>
+        </trans-unit>
+        <trans-unit id="copyright" datatype="html">
+            <source>© 2023 Our Company. All rights reserved.</source>
+            <target>© 2023 Notre entreprise. Tous droits réservés.</target>
+        </trans-unit>
+        <trans-unit id="languageSelection" datatype="html">
+            <source>Language: <x id="START_TAG_SELECT" ctype="x-select" equiv-text="<select>"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="<option value='en'>"/>English<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="</option>"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="<option value='fr'>"/>French<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="</option>"/><x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="<option value='es'>"/>Spanish<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="</option>"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="</select>"/></source>
+            <target>Langue : <x id="START_TAG_SELECT" ctype="x-select" equiv-text="<select>"/><x id="START_TAG_OPTION" ctype="x-option" equiv-text="<option value='en'>"/>Anglais<x id="CLOSE_TAG_OPTION" ctype="x-option" equiv-text="</option>"/><x id="START_TAG_OPTION_1" ctype="x-option_1" equiv-text="<option value='fr'>"/>Français<x id="CLOSE_TAG_OPTION_1" ctype="x-option_1" equiv-text="</option>"/><x id="START_TAG_OPTION_2" ctype="x-option_2" equiv-text="<option value='es'>"/>Espagnol<x id="CLOSE_TAG_OPTION_2" ctype="x-option_2" equiv-text="</option>"/><x id="CLOSE_TAG_SELECT" ctype="x-select" equiv-text="</select>"/></target>
+        </trans-unit>
+    </body>
+    </file>
+</xliff>

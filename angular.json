@@ -13,6 +13,12 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "locales": {
+          "fr": "src/locale/messages.fr.xlf",
+          "es": "src/locale/messages.es.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -57,6 +63,12 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "fr": {
+              "localize": ["fr"]
+            },
+            "es": {
+              "localize": ["es"]
             }
           },
           "defaultConfiguration": "production"
@@ -69,6 +81,12 @@
             },
             "development": {
               "browserTarget": "traductionEliot:build:development"
+            },
+            "fr": {
+              "browserTarget": "traductionEliot:build:fr"
+            },
+            "es": {
+              "browserTarget": "traductionEliot:build:es"
             }
           },
           "defaultConfiguration": "development"
