@@ -1,0 +1,17 @@
+{
+  "welcome": "Bienvenue sur notre site!",
+  "description": "Nous offrons une large gamme de produits et services pour répondre à vos besoins.",
+  "products": "Nos Produits",
+  "product1": "Produit 1",
+  "product2": "Produit 2",
+  "product3": "Produit 3",
+  "services": "Nos Services",
+  "service1": "Service 1",
+  "service2": "Service 2",
+  "service3": "Service 3",
+  "copyright": "© 2023 Notre société. Tous droits réservés.",
+  "language": "Langue:",
+  "english": "Anglais",
+  "french": "Français",
+  "Spanish": "Espagnol"
+}

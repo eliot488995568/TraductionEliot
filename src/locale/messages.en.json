@@ -1,0 +1,17 @@
+{
+  "welcome": "Welcome to our website!",
+  "description": "We offer a wide range of products and services to meet your needs.",
+  "products": "Our Products",
+  "product1": "Product 1",
+  "product2": "Product 2",
+  "product3": "Product 3",
+  "services": "Our Services",
+  "service1": "Service 1",
+  "service2": "Service 2",
+  "service3": "Service 3",
+  "copyright": "© 2023 Our Company. All rights reserved.",
+  "language": "Language:",
+  "english": "English",
+  "french": "French",
+  "Spanish": "Spanish"
+}

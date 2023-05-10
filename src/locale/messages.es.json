@@ -1,0 +1,16 @@
+{
+  "welcome": "Bienvenido a nuestro sitio web!",
+  "description": "Ofrecemos una amplia gama de productos y servicios para satisfacer sus necesidades.",
+  "products": "Nuestros productos",
+  "product1": "Producto 1",
+  "product2": "Producto 2",
+  "product3": "Producto 3",
+  "services": "Nuestros servicios",
+  "service1": "Servicio 1",
+  "service2": "Servicio 2",
+  "service3": "Servicio 3",
+  "language": "Idioma:",
+  "english": "Inglés",
+  "french": "francés",
+  "Spanish": "Español"
+}
